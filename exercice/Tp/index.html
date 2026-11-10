@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="/CSS/Style_form.css">
+</head>
+<body>
+   
+  <fieldset class="field1">
+    <h1 class="titre">Mon premier formulaire HTML5</h1>
+    <div class="contener">w
+    <fieldset class="field2">
+        <legend>Vos donnees personnelles</legend>
+      <form action="traitement.php" method="GET">
+         <label for="Nom">Nom</label>
+         <input type="text"name="Nom" id="nom" placeholder="Nom"><br>
+         <br>
+         <label for="prenom">Prenom</label>
+         <input type="text"name="Prenom" id="Prenom" placeholder="Prenom"><br>
+         <br>
+         <label for="Date de naissance">Date de naissance</label>
+         <input type="Date" value="12/01/2009 N
+name="Date" id="Date" placeholder="Date de naissance"><br>
+         <br>
+         <fieldset>
+             <legend>Lieu de naissance</legend>
+             <input type="radio"name="lieu" id="seine" checked>
+             <label for="Seine">seine-saint-denise</label>
+             <input type="radio" name="lieu" id="reste" >
+             <label for="reste">reste du monde</label>
+         </fieldset>
+         <br>
+         <fieldset>
+            <legend> Option NSI au bac</legend>
+            <input type="radio"name="nsi" id="oui" checked>
+            <label for="oui">oui</label>
+            <input type="radio" name="nsi" id="non">
+            <label for="nom">non</label>
+         </fieldset>
+         <label for="Adresse">Adresse postale</label>
+         <textarea  id=" Adresse" rows="3" cols="20" placeholder="votrre adresse"></textarea><br>
+         <br>
+         <label for="code">code postale</label>
+         <input type="text" name="code postal" id="code postal" placeholder="9300"><br>
+         <br>
+         <label for="Adresse">Adresse electronique</label>
+         <input type="text"name="AE" id="Adresse electronique" placeholder="votre adresse electronique"><br>
+         <br>
+         <label for="page">page personnelle</label>
+         <input type="text"name="pp" id="Page personnelle" placeholder="votre page personnelle"><br>
+         <br>
+         <label for="Tel">Telephone portable</label>
+         <input type="text" name="TP" id="Telephone portable" placeholder="678393243"><br>
+         <br>
+          <label for="semestre">semestre</label>
+          <select name="semestre" id="semestre">
+           <option value="s1">S1</option>
+           <option value="s2">S2</option>
+           <option value="S3">S3</option>
+           <option value="s4">S4</option>
+           <option value="s5">S5</option>
+           <option value="s6" selected>S6</option>
+          </select><br>
+          <br>
+          <label for="Niveau"> Niveau en HTML</label>
+          <input type="range" step="1" value="8" name="Niv" id="Niveau"> <br>
+          <br>
+         <fieldset>
+            <legend>conaissance</legend>
+             <input type="checkbox" name="conais" id="HTML" checked>
+            <label for="HTML">HTML</label>
+            <input type="checkbox"name="conais" id="CSS" checked>
+            <label for="CSS">CSS</label>
+            <input type="checkbox" name="form" id="formulaire" checked>
+            <label for="Form">formulaire</label>
+            <input type="checkbox" name="conais" id="JS" checked>
+            <label for="JS">Java Script</label>
+         </fieldset>
+         <footer>
+            <input type="submit" value="envoyer">
+            <input type="reset" value="Renitialiser">
+         </footer>
+      </form>
+    </fieldset>
+    <p>Formulaire realiser dans le cadre du cours de developpement web</p>
+    </div>
+  </fieldset>
+  <script>
+//    var formData = document.getElementById("form");
+//    formData.addEventListener('submit',function(e){
+//       e.preventDefault();
+//       let nom =document.getElementById("nom");
+//       if(nom.value.trim())
+//    })
+//   </script>
+</body>
+</html> 

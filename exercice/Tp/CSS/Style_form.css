@@ -1,0 +1,90 @@
+.titre{
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(250, 250, 252);
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 3px 3px 3px rgb(200, 197, 15) ;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: neige 2s infinite;
+}
+.field1{
+    max-width: 800px;
+    border-color: rgb(200, 197, 15);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(220, 74, 225);
+}
+.field2{
+    border:  solid 1px;
+    border-color:  rgb(200, 197, 15);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 0 0 15px 0;
+    background-color: aliceblue;
+}
+
+.field2 fieldset{
+    box-shadow: 3px 3px 3px  rgb(132, 13, 175);
+    background-color: ;
+}
+.contener{
+    padding: 10px;
+    background-color: aliceblue;  
+    border:  solid 1px;
+    border-color:  rgb(200, 197, 15);
+    border-radius: 20px; 
+}
+input [type="text"],
+input[ type="date"],
+input[ type="Email"],
+input[type="url"],select,textarea {
+    width: 100%;
+    padding: 10px 0;
+    border-radius:6px;
+    border-color: chocolate;
+}
+input:focus{
+    background-color: #9999fdb3;
+    border-color:chocolate ;
+}
+button{
+    width: 120px;
+    padding: 6px 0px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color:#0404e4b3;
+    color: white;
+    font-size: 1.1em;
+    margin-top: 12px;
+    transform: 2s ease;
+}
+button[type ="reset"]{
+    background-color: #ce5c06;
+}
+footer{
+    color: white;
+    font-weight: 800;
+    font-size: 1.2em;
+    margin-top: 6px;
+    text-align: center;
+}
+@keyframes neige{
+    25%{
+        background-color: pink;
+    }
+    50%{
+        background-color: violet;
+    }
+    76%{
+        background-color: orange;
+    }
+}
